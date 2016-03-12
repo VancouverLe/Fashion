@@ -167,17 +167,21 @@ a:hover {
     font-size: 3rem;
     font-family:hobo std;
 }
+.evisu>a {
+    text-decoration: none;
+}
 .evisu2{
     text-align: center;
 }
 .searchpage {
     position: fixed;
-    height: 50%;
+    height: 60%;
     z-index: 1;
     background-color: white;
     color: black;
     width: 100%;
-    text-align: center
+    text-align: center;
+    display: none;
 }
 .search{
     color: black;
@@ -193,6 +197,9 @@ a:hover {
     padding: 50px;
     display: none;
 }
-
+.footer{
+    color: gray;
+    text-align: right;
+}
 
 
